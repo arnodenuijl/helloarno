@@ -1,0 +1,29 @@
+Fri Jan 24 2014 19:55:30 GMT+0100 (W. Europe Standard Time):
+{ [Error: Unable to locate site named helloarno]
+  stack: [Getter/Setter],
+  __frame: 
+   { name: 'lookupSiteNameAndWebSpace',
+     line: 723,
+     file: 'C:\\Users\\aduijl\\AppData\\Roaming\\npm\\node_modules\\azure-cli\\lib\\commands\\site._js',
+     prev: 
+      { name: '__11',
+        line: 868,
+        file: 'C:\\Users\\aduijl\\AppData\\Roaming\\npm\\node_modules\\azure-cli\\lib\\commands\\site._js',
+        prev: undefined,
+        active: false,
+        offset: 8,
+        col: 10 },
+     active: false,
+     offset: 7,
+     col: 4 },
+  rawStack: [Getter] }
+Error: Unable to locate site named helloarno
+    at ___ (C:\Users\aduijl\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site._js:719:20)
+    at ___ (C:\Users\aduijl\AppData\Roaming\npm\node_modules\azure-cli\node_modules\streamline\lib\callbacks\runtime.js:85:13)
+    at ___ (C:\Users\aduijl\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site._js:1158:131)
+    at __tryCatch (C:\Users\aduijl\AppData\Roaming\npm\node_modules\azure-cli\node_modules\streamline\lib\callbacks\runtime.js:141:4)
+    at ___ (C:\Users\aduijl\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site._js:1158:67)
+    at site_doSitesGet__20 (C:\Users\aduijl\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site._js:1158:33)
+    at lookupSiteNameAndWebSpace (C:\Users\aduijl\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site._js:730:4)
+    at __11 (C:\Users\aduijl\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site._js:876:10)
+
